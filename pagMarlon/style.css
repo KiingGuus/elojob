@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@media (max-width: 2500px){
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-div{
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 300px;
+        margin: 10px;
+        text-align: center;
+        font-family: arial;
+        padding: 10px;
+    }
+
+    .card-div img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-div h1 {
+        font-size: 24px;
+        color: #333333;
+    }
+
+    .card-div p {
+        font-size: 16px;
+        color: #777777;
+    }
+    .background_Imagem{
+        background-image: url("lol2400.jpg");
+                background-size: cover;
+                background-position: center 100% ;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+    }
+    .dentro_scroll{
+        padding-bottom: 7rem;
+    }
+
+    /*precisar arrumar no resposivo abaixo de 560px de largura*/
+    .background_Imagem_topo{
+        background-image: url("imgcontainer.png");
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+    }
+    .nav :hover {
+        background-color: white;
+        border-radius: 5px;
+    }
+    .primeiro_h1{
+        font-size: 88px;
+    }
+    .primeiro_container{
+        padding-top: 14rem;
+        padding-bottom: 7rem;
+    }
+}
+@media (max-width: 1400px){
+    .primeiro_h1{
+        font-size: 75px;
+    }
+}
+@media (max-width: 1000px){
+    .primeiro_h1{
+        margin-right: 300px;
+    }
+}
+
+
+/*nao consegui arrumar os valores no responsivo de 780px
+@media (max-width: 780px){
+    .valores{
+
+    }
+}
+*/
+
+
+
+
+@media (max-width: 570px){
+    .background_Imagem_topo{
+        background-image: url("imgcontainer.png");
+                background-position: 65% center;
+                background-repeat: no-repeat;
+    }
+}
+@media (max-width: 480px){
+    #nav_menu {
+        position: relative;
+      }
+    #nav_menu > ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+      }
+    .primeiro_h1{
+        font-size: 55px;
+    }
+}
